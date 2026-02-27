@@ -1,0 +1,59 @@
+Koncepti 
+
+Kas ir programma? Kā tu to izskaidrotu cilvēkam, kurš nekad nav programmējis? 
+Programma ir vairākas rindiņas ar komandām ko cilvēks liek darīt datoram. 
+
+Kas ir algoritms? Kā tas atšķiras no vienkāršas instrukcijas? Algoritms ir precīzu soļu secība. 
+Instrukcijas ir daudz vienkāršākas, jo tās ir domātas priekš cilvēkiem,, kuri paši spēj domāt. Algoritmu izpilda dators kurš nespēj pats domāt, tādēļ šoļiem ir jābūt ļoti precīziem un bez kļūdām vai caurumiem. 
+
+Kādas trīs īpašības padara algoritmu derīgu (valid)? Pastāsti katru saviem vārdiem un dod piemēru, kas šo īpašību pārkāpj. 
+1. Precizitāte. Katram solim ir jābūt precīzam, lai veiksmīgi saņemtu rezultātu datoram nedrīkst ļaut minēt soļus. Piemērs, ielej krūzē ūdeni. Precīzi būtu ielej krūze 100ml ūdens. 
+2. Pabeidzamība. Algoritmai ir jābūt beigām. Tā nedrīkst iestrēgt ciklā, kas nekad nebeidzas. Piemēram, algoritma: 1. brauc uz priekšu 10 metrus. 2. atkārto. Algoritma ir bezgalīga, jo nav noteikts kad jābeidz braukt uz priekšu. 
+3. Rezultāts. Algoritmai ir jābūt izpildāmai. Tā nedrīkst būt neiespējama. Piemēram, 1. Atver tukšu kasti. 2. Izņem no tās kreklu. Šī algoritma nav iespējama, jo kaste ir tukša. 
+
+Ko nozīmē “secīga izpilde” (sequential execution)? Kāpēc datoram ir svarīgi, kādā secībā soļi tiek izpildīti? 
+Secīga izpilde nozīme, ka dators lasa komandas tieši tā, kā viņas ir uzrakstītas. Secība ir svarīga, jo dators neprot pats domāt un izpilda tikai to, ko tu esi viņam licis pildīt. Lai veiksmīgi izpildītu komandas, ir nepieciešama loģiska secība. 
+
+Izskaidro modeli “ievade → apstrāde → izvade” ar vienu konkrētu piemēru no ikdienas vai no sava mājasdarba.  
+Ievade ir dati (gan digitāli, gan fiziski), kurus apstrāde (ar kādu procesu vai darbību) pārvērš uz izvadi (rezultātu). Piemēram, maizi (ievade) ieliek tosterī uz vienu minūti (apstrāde), un pēc minūtes iznāk grauzdēta maize (izvade/rezultāts). 
+
+Kas ir interpretators (interpreter) un ko tas dara ar tavu Python kodu? 
+Interpretators ir kā tulks, kurš pārtulko manu Python kodu datoram saprotamā valodā. 
+
+Kāda ir procesora (CPU) un atmiņas (memory) loma programmas izpildē? Izskaidro vienkāršoti, saviem vārdiem. 
+Programmas izpildes laikā procesors no atmiņas nolasa programas instrukcijas un izpilda tās. 
+
+Kas notiek, ja tavā kodā ir sintakses kļūda? Kāpēc programma netiek izpildīta pat daļēji? 
+Ja kodā ir sintakses kļūdas tad nav iespējams pārvērst kodu instrukcijās. Ja interpretators nespēj izlasīt pat vienu vārdu kodā tad tas programmu pat neiesāks, jo palaist tādu programmu var būt bīstami. 
+
+Shape 
+
+Praktiskie darbi 
+
+Vai Python ir veiksmīgi uzstādīts tavā datorā? Kādu Python versiju parāda python --version? 
+Pyhtons ir veiksmīgi uzstādīts. Uzrāda versiju 3.14.3 
+
+Vai tu spēj palaist kodu no termināļa vai IDE? Apraksti, kā tu to dari — kādus soļus veic.  
+Jā spēju palaist kodu gan no termināļa, gan no IDE. Terminālī es ierakstu python hello.py. Priekš IDE es uzspiežu “run” pogu augšējā labajā stūri. 
+
+Vai tu spēj izveidot .py failu un to izpildīt? Kas notiek, ja mēģini palaist failu, kura nav? 
+Jā spēju. Ja mēģinu palaist failu, kura nav, tad uzrādās kļūda “No such file or directory” 
+
+Vai tu uzrakstīji un palaidi savu “Hello, world!” programmu? Kas tieši parādījās ekrānā? 
+Palaidu programmu. Ekrānā parādijās mani pēdiņās ierakstītais teikums. 
+
+Vai tu veiksmīgi nomainīji izvades tekstu? Ko tu mainīji un kāds bija rezultāts? 
+
+Jā veiksmīgi nomainīju. Nomainīju “Hello, world!” uz “Hello, my name is Kevins!”. 
+
+Rezultāts bija, ka tagad palaižot programmu ekrānā uzrādās “Hello, my name is Kevins!”. 
+
+Shape 
+
+Refleksija 
+
+Kāpēc programmētājam ir jābūt precīzam katrā instrukcijā? Ko dators nevar “uzminēt”? 
+Dators nevar uzminēt drukas kļūdas labojumus, ja tu uzrakstīji dtors, nevis dators. Viņš to nezina. 
+
+Kāpēc precizitāte ir svarīga programmās? Apraksti vienu situāciju, kur neliela neprecizitāte varētu radīt lielu problēmu. 
+Precizitāte ir svarīga, jo dators izpildīs to, ko tu esi uzrakstījis, nevis to, ko tu biji domājis datoram likt pildīt. Piemērs, atzīmēt 2 nevis kā skaitli, bet kā tekstu. 2+2 tagad ir 22. 

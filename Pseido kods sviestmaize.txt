@@ -1,0 +1,18 @@
+SĀKT 
+IZŅEMT maizi 
+JA grauzdēta TAD 
+IELIKT maizi_tosterī 
+SAGAIDĪT līdz_maize_sagrauzdēta 
+IZŅEMT maizi_no_tostera 
+BEIGT JA 
+JA sviests_uz_maizes TAD 
+UZSMĒRĒT sviestu 
+BEIGT JA 
+PAŅEMT tomātu 
+SAGRIEZT tomātu_šķēlēs 
+UZKLĀT sagrieztās_šķēles_uz_maizes 
+JA sāls_uz_tomātiem TAD 
+PIEVIENOT šķipsnu_sāls 
+BEIGT JA 
+IZBAUDĪT sviestmaizi 
+BEIGT
