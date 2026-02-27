@@ -1,1 +1,5 @@
 print("Hello from VS Code")
+print("Hello, my name is Kevins!")
+print("I like going on walks")
+print("Programming is fun")
+print("How is everyone?")
